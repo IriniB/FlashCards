@@ -1,0 +1,27 @@
+.wrapper {
+    display: grid;
+    row-gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    resize: both;
+}
+
+
+.box {
+    background: #EEF1FF;
+    width: 215px;
+    padding: 10px;
+    border: 2px solid #554994;
+    resize: both;
+}
+
+textarea {
+    width: 200px;
+    resize: vertical;
+}
+
+button {
+    background-color: #554994;
+    color: #EEF1FF;
+    border: none;
+    height: 30px;
+}
